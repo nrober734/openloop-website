@@ -1,0 +1,161 @@
+<!DOCTYPE HTML>
+<!--
+    Hey there!
+    
+	Alpha by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+    Adapted for OpenLoop by Mish | mish.one
+-->
+<html>
+	<head>
+		<title>OpenLoop | Hyperloop Alliance</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<header id="header" class="alt">
+					<h1><a href="index.html">OpenLoop</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html"></a></li>
+                            <li><a href="#main">About</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#cta">Sponsors</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<img class="image" id="hero-image" src="images/openloopHero.png">
+					<h2>Connecting tomorrow's world, today.</h2>
+					<ul class="actions">
+						<li><a href="#cta" class="button special">Partner With Us</a></li>
+						<li><a href="#main" class="button special">Learn More</a></li>
+					</ul>
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="container">
+
+					<section class="box special">
+						<header class="major">
+							<h2>Six Schools, Two Countries, One Mission<br /> Bringing Cities Closer
+							</h2>
+							<p>We are OpenLoop, an alliance of some of the world’s greatest universities joined together with the ultimate goal of revolutionizing the future of human transportation. We are competing in the <a href="http://www.spacex.com/hyperloop">SpaceX Hyperloop Design Competition</a> to design, build, and test a scaled-down Hyperloop pod, and with the combined resources and talent of our six prestigious institutions, we’re uniquely poised to make significant contributions to the Hyperloop Project as a whole. All these contributions will be open-sourced to support Hyperloop’s continued development.</p>
+						</header>
+					</section>
+
+					<section class="box special features" id="team">
+						<header class="major">
+							<h2>Get To Know Us</h2>
+							<p>Some stuff about a crazy ass team we have man...</p>
+						</header>
+                        
+                        <div class="row">
+						<div class="6u 12u(narrower)">
+
+							<section class="box special">
+								<span class="image featured"><img src="images/pod.png" alt="" /></span>
+								<h3>Our Take On The Loop</h3>
+								<p>See the story behind our pod's design and the current work in progress.</p>
+								<ul class="actions">
+									<li><a class="disabled button">Coming Soon</a></li>
+								</ul>
+							</section>
+
+						</div>
+                        <div class="6u 12u(narrower)">
+
+							<section class="box special">
+								<span class="image featured"><img src="images/schools.png" alt="" /></span>
+								<h3>Meet Our Team</h3>
+								<p>Meet the 100+ students and advisors who are turning the dream of OpenLoop into reality.</p>
+								<ul class="actions">
+									<li><a href="team.html" class="button alt">Learn More</a></li>
+								</ul>
+							</section>
+
+						</div>
+						<div class="6u 12u(narrower)">
+
+
+						</div>
+					</div>
+                            
+                        
+					</section>
+
+					
+
+				</section>
+
+			<!-- Call To Action -->
+				<section id="cta">
+                    <div class="container">
+                        <div class="row">
+                            <div class="12u">
+                               <h2>Join Us</h2>
+                               <p>Play a role in innovating by partnering with us. We are seeking relationships with corporate sponsors as we bring fresh innovation to the Hyperloop project through participation in the SpaceX competition. It’s a chance for you to connect with the brightest up-and-coming engineers and businesspeople while supporting our mission to engineer the next great form of transportation. If you are interested in being a critical part of our efforts, please reach out to us.</p>
+
+                                <form>
+                                    <div class="row uniform 50%">
+                                        <div class="8u 12u(mobilep)">
+                                            <input type="email" name="email" id="email" placeholder="Email Address" />
+                                        </div>
+                                        <div class="4u 12u(mobilep)">
+                                            <input type="submit" value="Sign Up" class="fit" />
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/company/openloop" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                        <li><a href="mailto:contact@opnlp.co" class="icon fa-envelope"><span class="label">Email</span></a></li>	
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollgress.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+            <script>
+            $(function() {
+                  $('a[href*=#]:not([href=#])').click(function() {
+                    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                      var target = $(this.hash);
+                      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                      if (target.length) {
+                        $('html,body').animate({
+                          scrollTop: target.offset().top
+                        }, 600);
+                        return false;
+                      }
+                    }
+                  });
+                });
+            </script> 
+
+	</body>
+</html>
